@@ -2,7 +2,7 @@ require('minitest/autorun')
 require('minitest/rg')
 require_relative('../student_class')
 
-class TestTelevision < MiniTest::Test
+class TestStudent < MiniTest::Test
 
 def setup
   @student1 = Student.new("Fred", "INV2", "Ruby")
