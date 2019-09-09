@@ -12,15 +12,14 @@ class TestSport < MiniTest::Test
   #   @team.add_player("Jon")
   #   assert_equal(5, @team.players.size)
   # end
+  #
+  # def test_find_player
+  #   assert_equal("Ron", @team.find_player("Ron"))
+  # end
 
-  def test_find_player
-    assert_equal("Ron", @team.find_player("Ron"))
+  def test_add_points
+    assert_equal(10, @team.add_points(10))
   end
-
-
-
-
-
 
 
 

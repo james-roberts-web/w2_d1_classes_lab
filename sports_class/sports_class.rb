@@ -13,12 +13,19 @@ class Sport
   #   @players.push(name)
   # end
 
-  def find_player(name)
-    for player in @players
-      if name == player
-      return name
-    end
+  # def find_player(name)
+  #   for player in @players
+  #     if name == player
+  #       return name
+  #     end
+  #   end
+  # end
+
+  def add_points(added_points)
+      return @points + added_points
   end
-end
+
+
+
 
 end
