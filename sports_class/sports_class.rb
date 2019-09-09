@@ -2,7 +2,7 @@ class Sport
 
   attr_accessor :name, :players, :coach, :points
 
-  def initialize (name, players, coach, points)
+  def initialize(name, players, coach, points)
     @name = name
     @players = players
     @coach = coach
@@ -25,7 +25,13 @@ class Sport
       return @points + added_points
   end
 
-
+  # def change_points(result)
+  #   if result == "won"
+  #     @points += 10
+  #   elsif result == "lost"
+  #     @points -=10
+  #   end
+  # end
 
 
 end

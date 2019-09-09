@@ -21,7 +21,10 @@ class TestSport < MiniTest::Test
     assert_equal(10, @team.add_points(10))
   end
 
-
+  # def test_change_points__won
+  #   @team.change_points("won")
+  #   assert_equal(10, @team.points)
+  # end
 
 
 end
